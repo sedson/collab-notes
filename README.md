@@ -16,7 +16,7 @@ Users can:
 
 ![wireframe 1](/wireframes/wf1.png)
 
-![wireframe 2](/wireframes/wf1.png)
+![wireframe 2](/wireframes/wf2.png)
 
 ## Models
 
