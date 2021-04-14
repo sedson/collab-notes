@@ -3,7 +3,7 @@
 A plain text notetaking app that allows realtime collaboration 
 
 
-# User story
+## User story
 
 Users can: 
 - Create an account
@@ -37,5 +37,5 @@ collabDocs: [document_id
 
 - [Slate – rich text editor](https://gutenberg-yjs.vercel.app/)
 - [Yjs – collaborative data JS tool](https://yjs.dev/#intro)
-– [Prosemirror – has a collab demo running with source code](https://prosemirror.net/examples/collab/#edit-Example)
+- [Prosemirror – has a collab demo running with source code](https://prosemirror.net/examples/collab/#edit-Example)
 - [Conclave text writeup](https://conclave-team.github.io/conclave-site/)
