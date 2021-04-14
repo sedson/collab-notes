@@ -39,7 +39,8 @@ collabDocs: [document_id
 
 ## Things to look into
 
-- [Slate – rich text editor](https://gutenberg-yjs.vercel.app/)
+- [Slate – rich text editor](https://docs.slatejs.org/)
 - [Yjs – collaborative data JS tool](https://yjs.dev/#intro)
 - [Prosemirror – has a collab demo running with source code](https://prosemirror.net/examples/collab/#edit-Example)
 - [Conclave text writeup](https://conclave-team.github.io/conclave-site/)
+- [Convergence](https://convergencelabs.com/)
