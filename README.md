@@ -1,18 +1,22 @@
 # collab-notes
 
-A plain text notetaking app that allows realtime collaboration 
+A plain text notetaking app that allows realtime collaboration
 
 
 ## User story
 
-Users can: 
+Users can:
 - Create an account
 - Sign in and sign out
-- Create plain text documents 
+- Create plain text documents
 - Add collaborators to documents
 - Edit plain text documents collaboratively
 
 ## Wireframes
+
+![wireframe 1](/wireframes/wf1.png)
+
+![wireframe 2](/wireframes/wf1.png)
 
 ## Models
 
