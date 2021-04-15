@@ -3,6 +3,7 @@
 A plain text notetaking app that allows realtime collaboration
 
 [Backend API Repo](https://github.com/sedson/collab-notes-backend)
+[Front End Repo](https://github.com/mayer171/collab-notes-frontend)
 
 
 ## User story
