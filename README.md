@@ -2,9 +2,19 @@
 
 A plain text notetaking app that allows realtime collaboration
 
+[Deployed Front End](http://collab-notes-front-end-herokuapp.com)
+
 [Backend API Repo](https://github.com/sedson/collab-notes-backend)
+
 [Front End Repo](https://github.com/mayer171/collab-notes-frontend)
 
+# Technologies used
+
+The front end application is a React app that uses Material for styles. The backend is a NodeJS app that uses Express for handling http requests and the npm package 'ws' for managing web socket requests. The data handleing is Mongo + Mongoose. Both the front end and backend are deployed on Heroku. 
+
+**NOTE** – for the app to work properly make sure you are conencting via `http` not `https`!
+
+The text editing component uses Slate.js – a React-based tool for building custom text editors in front end apps. Slate has a lovely datatype that stores each change made to a document as an Operation. These operations are serielazed to JSON and then sent via a live WebSokcet connection to the Express + WS backend. The server then updates the internal representation of the document and broadcasts the operations to all the other editors that have connected 
 
 ## User story
 
@@ -13,7 +23,7 @@ Users can:
 - Sign in and sign out
 - Create plain text documents
 - Add collaborators to documents
-- Edit plain text documents collaboratively
+- Edit plain text documents simultanesouly
 
 ## Wireframes
 
@@ -26,8 +36,8 @@ Users can:
 ### Document
 ```
 title: string (or collaboration safe type)
-text: string (or collaboration safe type)
-authorizedEditors: [user_id]
+content: string (or collaboration safe type)
+authorizedEditors: [users]
 createdAt: timestamp
 editedAt: timestamp
 ```
@@ -36,8 +46,6 @@ editedAt: timestamp
 ```
 name: string
 password: hashed string
-ownedDocs: [document_id]
-collabDocs: [document_id
 ```
 
 ## Things to look into
