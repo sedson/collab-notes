@@ -12,7 +12,7 @@ A plain text notetaking app that allows realtime collaboration
 
 The front end application is a React app that uses Material for styles. The backend is a NodeJS app that uses Express for handling http requests and the npm package 'ws' for managing web socket requests. The data handleing is Mongo + Mongoose. Both the front end and backend are deployed on Heroku. 
 
-**NOTE** – for the app to work properly make sure you are conencting via `http` not `https`!
+**NOTE** – for the app to work properly make sure you are conencting via `http` not `https`! Also the credentials are not properly sending from current versions of Chrome! Works best in Firefox.
 
 The text editing component uses Slate.js – a React-based tool for building custom text editors in front end apps. Slate has a lovely datatype that stores each change made to a document as an Operation. These operations are serielazed to JSON and then sent via a live WebSokcet connection to the Express + WS backend. The server then updates the internal representation of the document and broadcasts the operations to all the other editors that have connected 
 
